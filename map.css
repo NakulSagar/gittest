@@ -2257,12 +2257,6 @@ body .ms-options-wrap > button {
     div.ms-options-wrap > .ms-options {right: 0 !important;top: 0 !important;margin-top: 40px;width: 100%;min-width: 100%;}
 }
 
-@media screen and (min-width: 1500px) {
-    .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown,div#ms-list-1 {width: calc(68.4%/5);max-width: none;min-width: auto;}
-}
-@media screen and (min-width: 1550px) {
-    .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown,div#ms-list-1 {width: calc(91%/5);max-width: none;min-width: auto;}
-}
 @media screen and (min-width: 1600px) {
     .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown,div#ms-list-1 {width: calc(71%/5);max-width: none;min-width: auto;}
 }
@@ -2325,6 +2319,8 @@ body .ms-options-wrap > button {
     .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown,div#ms-list-1 {width: calc(70%/5);max-width: none;min-width: auto;}
 }
 
+
+
 @media (max-width: 1200px) {
     .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown,div#ms-list-1 {width: calc(83%/5);max-width: none;min-width: auto;}
 }
@@ -2369,7 +2365,8 @@ body .ms-options-wrap > button {
     .sel_box_sec {max-width: 1265px !important;}
 }
 @media screen and (min-width: 1550px) {
-    .sel_box_sec {max-width: 1300px !important;}
+    .sel_box_sec {max-width: 1430px !important;}
+    .sel_box_sec .sel_col div#ms-list-1 {width: 100% !important;min-width: 220px;} 
 }
 
 @media screen and (min-width: 1470px) {
@@ -2381,7 +2378,6 @@ body .ms-options-wrap > button {
   ul.main-menu-left li a{font-size: 16px;margin: 0px 6px;font-family: 'Work Sans', sans-serif;}
 }
 
-
 @media (max-width: 1000px)
 {
 .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown, div#ms-list-1 {
@@ -2390,8 +2386,8 @@ body .ms-options-wrap > button {
     min-width: auto;
     vertical-align: top;
     margin: 0 5px;
-
 }
+
 div.ms-options-wrap > .ms-options {
     right: 0 !important;
     top: 0 !important;
@@ -2429,3 +2425,21 @@ div.listing-view .home-hero-search.tabs-search.tabs-search-brd input.link.w-butt
 }
 }
 
+@media screen and (min-width: 1500px) {
+    .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown,div#ms-list-1 {width: calc(68.4%/5);max-width: none;min-width: auto;}
+}
+@media screen and (min-width: 1550px) {
+    .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown,div#ms-list-1 {width: calc(91%/5);max-width: none;min-width: auto;}
+    body .ms-options-wrap > button.mlselect{min-width: 220px !important;}
+}
+@media screen and (min-width: 1500px) {
+    .sel_box_sec {max-width: 1300px !important;}
+}
+
+@media screen and (min-width: 1600px)  {
+    .sel_box_sec {max-width: 1400px !important;}
+}
+
+@media screen and (min-width: 1685px)  {
+    .sel_box_sec {max-width: 1500px !important;}
+}
