@@ -240,7 +240,7 @@ div.ms-options-wrap > .ms-options > .ms-selectall.global {
 body div.ms-options-wrap > button.mlselect {border: 0 !important;}
 body .listing-view .home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown, div#ms-list-1{width: 100% !important;margin: 0 !important}
 div.home-hero-search.tabs-search.tabs-search-brd select.dropdown-2.w-dropdown.price-range {
-    min-width: 280px;
+    min-width: 250px;
     font-weight: normal;
     font-size: 13px;
 }
